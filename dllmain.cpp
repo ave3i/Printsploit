@@ -3,7 +3,7 @@
 uintptr_t ModuleBase = (uintptr_t)GetModuleHandleA(0); // Get RobloxPlayer.exe Module Handle (0 = Parent Window Handle)
 
 using Print = DWORD64(__cdecl*)(unsigned int Type, const char* Message, ...); // Type for print
-Print PrintConsole = reinterpret_cast<Print>(ModuleBase + 0x1DEA630); // Actual print, calling Print Offset, on the Module Base (Roblox)
+Print PrintConsole = reinterpret_cast<Print>(ModuleBase + 0x1DB7F90); // Actual print, calling Print Offset, on the Module Base (Roblox)
 
 void StartPrinting()
 {

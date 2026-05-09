@@ -1,6 +1,6 @@
-# Printsploit
+# printsploit
 
 
-Its simple and purely for testing :3 
-its for non commercial use only and yea
-join for print offset : https://discord.gg/HXEKNUEeb6
+- It's solely for testing purposes.
+- It's for non-commercial use only.
+- Join for Print offset : https://discord.gg/HXEKNUEeb6

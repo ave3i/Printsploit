@@ -1,4 +1,3 @@
 # printsploit
 
-don't rat the dll plz and send it to anybody thx
-(yes, you will have to compile it im not in the mood)
+if the printsploit is your power, what are you without it?

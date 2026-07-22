@@ -1,9 +1,9 @@
 #include <Windows.h>
+#define rebase(x) (x + reinterpret_cast<uintptr_t>GetModuleHandleA(0))
 
-uintptr_t base = (uintptr_t)GetModuleHandleA(0); // get roblox base, since we are injected to it, we put 0, which indicates the exe we are in, in this case RobloxPlayerBeta.exe
-
-using Print = DWORD64(__cdecl*)(unsigned int, const char*, ...);
-Print r_print = reinterpret_cast<Print>(base + 0x1E08380); // needs updating uwu
+const uinptr_t Print = 0x834D90; // needs updating
+using r_print_t = int(__fastcall*)(unsigned int, const char*, ...);
+r_print_t r_print = reinterpret_cast<r_print_t>(Print);
 
 void start()
 {
